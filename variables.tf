@@ -14,4 +14,5 @@ variable "cluster_name" {
 variable "anything_you_want" {
   description = "Additional variables such as node group size, ami, machine type, etc."
   type        = string
+  default     = "foobar"
 }
